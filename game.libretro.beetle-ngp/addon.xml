@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.beetle-ngp"
+		name="NGP (beetle)"
+		version="1.0.1"
+		provider-name="Libretro">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+                   library_android="game.libretro.beetle-ngp.so"
+                   library_linux="game.libretro.beetle-ngp.so"
+                   library_osx="game.libretro.beetle-ngp.dylib"
+                   library_windx="game.libretro.beetle-ngp.dll"
+                   library_wingl="game.libretro.beetla-ngp.dll">
+		<platforms>NGP</platforms>
+		<extensions>ngp</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_no_game>false</supports_no_game>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Beetle-ngp v1.0.1</summary>
+		<description>Source: https://github.com/libretro/beetle-ngp-libretro</description>
+		<platform>all</platform>
+	</extension>
+</addon>
