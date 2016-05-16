@@ -6,7 +6,7 @@ list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR})
 
 enable_language(CXX)
 
-find_package(kodi REQUIRED)
+find_package(Kodi REQUIRED)
 find_package(libretro-beetle-ngp REQUIRED)
 
 set(DEPLIBS beetle-ngp)
