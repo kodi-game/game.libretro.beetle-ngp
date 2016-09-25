@@ -11,15 +11,15 @@
 		<platforms>NGP</platforms>
 		<extensions>ngp|ngc</extensions>
 		<supports_vfs>false</supports_vfs>
-		<supports_no_game>false</supports_no_game>
+		<supports_standalone>false</supports_standalone>
+		<supports_keyboard>false</supports_keyboard>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Beetle NGP v0.9.36.1</summary>
 		<description>Based on NeoPop, this emulator is not very accurate in terms of low-level details. However, it is sufficient to play most commercially released games fairly well.
 
-Supported files: .ngp, .ngc
-
-License: GPL v2</description>
+Supported files: .ngp, .ngc</description>
+		<license>GPLv2</license>
 		<platform>@PLATFORM@</platform>
 		<nofanart>true</nofanart>
 	</extension>
