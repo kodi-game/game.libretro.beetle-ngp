@@ -10,7 +10,7 @@
                    library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms>NGP</platforms>
 		<extensions>ngp|ngc</extensions>
-		<supports_vfs>true</supports_vfs>
+		<supports_vfs>false</supports_vfs>
 		<supports_no_game>false</supports_no_game>
 	</extension>
 	<extension point="xbmc.addon.metadata">
