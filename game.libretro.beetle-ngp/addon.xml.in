@@ -9,7 +9,7 @@
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms>NGP</platforms>
-		<extensions>ngp|ngc</extensions>
+		<extensions>ngp|ngc|ngpc</extensions>
 		<supports_vfs>false</supports_vfs>
 		<supports_standalone>false</supports_standalone>
 		<supports_keyboard>false</supports_keyboard>
@@ -19,7 +19,7 @@
 		<summary lang="en">Neo Geo Pocket/Color (Beetle NeoPop) v0.9.36.1</summary>
 		<description>Based on NeoPop, this emulator is not very accurate in terms of low-level details. However, it is sufficient to play most commercially released games fairly well.
 
-Supported files: .ngp, .ngc</description>
+Supported files: .ngp, .ngc, .ngpc</description>
 		<license>GPLv2</license>
 		<platform>@PLATFORM@</platform>
 		<assets>
