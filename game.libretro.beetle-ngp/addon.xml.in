@@ -15,8 +15,8 @@
 		<supports_standalone>false</supports_standalone>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">SNK - Neo Geo Pocket / Color (Beetle NeoPop) v0.9.36.1</summary>
-		<description>Based on NeoPop, this emulator is not very accurate in terms of low-level details. However, it is sufficient to play most commercially released games fairly well.
+		<summary lang="en_GB">SNK - Neo Geo Pocket / Color (Beetle NeoPop) v0.9.36.1</summary>
+		<description lang="en_GB">Based on NeoPop, this emulator is not very accurate in terms of low-level details. However, it is sufficient to play most commercially released games fairly well.
 
 Supported files: .ngp, .ngc, .ngpc</description>
 		<license>GPLv2</license>
