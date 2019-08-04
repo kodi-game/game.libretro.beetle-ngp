@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.beetle-ngp"
 		name="SNK - Neo Geo Pocket / Color (Beetle NeoPop)"
-		version="0.9.36.3"
+		version="0.9.36.4"
 		provider-name="Libretro">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
@@ -10,7 +10,7 @@
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms>NGP</platforms>
-		<extensions>ngp|ngc|ngpc</extensions>
+		<extensions>ngp|ngc|ngpc|npc</extensions>
 		<supports_vfs>true</supports_vfs>
 		<supports_standalone>false</supports_standalone>
 	</extension>
@@ -18,7 +18,7 @@
 		<summary lang="en_GB">SNK - Neo Geo Pocket / Color (Beetle NeoPop) v0.9.36.1</summary>
 		<description lang="en_GB">Based on NeoPop, this emulator is not very accurate in terms of low-level details. However, it is sufficient to play most commercially released games fairly well.
 
-Supported files: .ngp, .ngc, .ngpc</description>
+Supported files: .ngp, .ngc, .ngpc, .npc</description>
 		<license>GPLv2</license>
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.beetle-ngp</source>
