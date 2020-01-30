@@ -21,5 +21,9 @@ msgid "Settings"
 msgstr ""
 
 msgctxt "#30001"
-msgid "Language (Restart)"
+msgid "Language (*)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Sound Output Samplerate (*)"
 msgstr ""
