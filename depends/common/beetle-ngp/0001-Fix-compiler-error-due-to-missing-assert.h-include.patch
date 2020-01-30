@@ -1,0 +1,36 @@
+From a4f148192e134b0b6799ce218470b0fe02fc3c34 Mon Sep 17 00:00:00 2001
+From: Garrett Brown <themagnificentmrb@gmail.com>
+Date: Thu, 30 Jan 2020 00:32:01 -0800
+Subject: [PATCH] Fix compiler error due to missing assert.h include
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Error was:
+
+mednafen/ngp/interrupt.cpp: In function ‘void set_interrupt(uint8_t, bool)’:
+mednafen/ngp/interrupt.cpp:73:4: error: ‘assert’ was not declared in this scope
+    assert(index < 24);
+    ^~~~~~
+---
+ mednafen/ngp/interrupt.cpp | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/mednafen/ngp/interrupt.cpp b/mednafen/ngp/interrupt.cpp
+index 8615ac1..518dedf 100644
+--- a/mednafen/ngp/interrupt.cpp
++++ b/mednafen/ngp/interrupt.cpp
+@@ -25,6 +25,10 @@
+ #include "dma.h"
+ #include "system.h"
+ 
++#ifndef NDEBUG
++#include <assert.h>
++#endif
++
+ #ifdef __cplusplus
+ extern "C" {
+ #endif
+-- 
+2.20.1
+
