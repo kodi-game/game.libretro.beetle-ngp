@@ -1,1 +1,1 @@
-beetle-ngp https://github.com/libretro/beetle-ngp-libretro/archive/dfe869398a5ab0912917397daf3b91c4db484db9.zip
+beetle-ngp https://github.com/libretro/beetle-ngp-libretro/archive/8d429aa226ee4959e85591d64ddaec133d0b6b6f.zip
