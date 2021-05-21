@@ -21,13 +21,13 @@ msgid "Settings"
 msgstr ""
 
 msgctxt "#30001"
-msgid "Color Depth"
-msgstr ""
-
-msgctxt "#30002"
 msgid "Language (*)"
 msgstr ""
 
-msgctxt "#30003"
+msgctxt "#30002"
 msgid "Sound Output Sample Rate"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Color Depth"
 msgstr ""
