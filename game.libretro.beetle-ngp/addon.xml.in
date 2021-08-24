@@ -25,6 +25,6 @@
 			<screenshot>resources/screenshot-03.jpg</screenshot>
 		</assets>
 		<summary lang="en_GB">SNK - Neo Geo Pocket / Color (Beetle NeoPop) v0.9.36.1</summary>
-		<description lang="en_GB">Based on NeoPop, this emulator is not very accurate in terms of low-level details. However, it is sufficient to play most commercially released games fairly well.</description>
+		<description lang="en_GB">Based on NeoPop, this emulator is not very accurate in terms of low-level details. However, it is sufficient to play most commercially released games fairly well.[CR][CR]Supported files: .ngp, .ngc, .ngpc, .npc</description>
 	</extension>
 </addon>
