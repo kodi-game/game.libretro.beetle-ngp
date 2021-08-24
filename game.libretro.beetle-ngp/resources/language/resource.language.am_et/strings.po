@@ -16,6 +16,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 
+msgctxt "Addon Summary"
+msgid "SNK - Neo Geo Pocket / Color (Beetle NeoPop) v0.9.36.1"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Based on NeoPop, this emulator is not very accurate in terms of low-level details. However, it is sufficient to play most commercially released games fairly well.
+
+Supported files: .ngp, .ngc, .ngpc, .npc"
+msgstr ""
+
 msgctxt "#30000"
 msgid "Settings"
 msgstr ""
