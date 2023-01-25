@@ -13,7 +13,7 @@ GPLv2
 
 ### Icon
 
-![Icon](game.libretro.beetle-ngp/resources/icon.png)
+![SNK - Neo Geo Pocket / Color (Beetle NeoPop) icon](game.libretro.beetle-ngp/resources/icon.png)
 
 ### Fanart
 
@@ -21,6 +21,6 @@ Help make me fanart!
 
 ### Screenshots
 
-![Screenshot](game.libretro.beetle-ngp/resources/screenshot-01.jpg)
-![Screenshot](game.libretro.beetle-ngp/resources/screenshot-02.jpg)
-![Screenshot](game.libretro.beetle-ngp/resources/screenshot-03.jpg)
+![SNK - Neo Geo Pocket / Color (Beetle NeoPop) screenshot](game.libretro.beetle-ngp/resources/screenshot-01.jpg)
+![SNK - Neo Geo Pocket / Color (Beetle NeoPop) screenshot](game.libretro.beetle-ngp/resources/screenshot-02.jpg)
+![SNK - Neo Geo Pocket / Color (Beetle NeoPop) screenshot](game.libretro.beetle-ngp/resources/screenshot-03.jpg)
