@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.beetle-ngp"
 		name="SNK - Neo Geo Pocket / Color (Beetle NeoPop)"
-		version="1.29.0.39"
+		version="1.29.0.40"
 		provider-name="neopop_uk, Mednafen Team">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
