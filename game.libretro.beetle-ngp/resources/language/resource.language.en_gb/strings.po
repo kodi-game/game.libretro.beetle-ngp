@@ -24,9 +24,7 @@ msgctxt "Addon Description"
 msgid "Based on NeoPop, this emulator is sufficient to play most commercially released games fairly well, but not very accurate in terms of low-level details."
 msgstr ""
 
-msgctxt "#30000"
-msgid "Settings"
-msgstr ""
+# Empty string with ID 30000
 
 msgctxt "#30001"
 msgid "Language (*)"
