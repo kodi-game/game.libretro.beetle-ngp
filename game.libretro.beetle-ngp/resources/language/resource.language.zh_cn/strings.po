@@ -25,13 +25,13 @@ msgctxt "Addon Description"
 msgid "Based on NeoPop, this emulator is sufficient to play most commercially released games fairly well, but not very accurate in terms of low-level details."
 msgstr "基于 NeoPop，该模拟器足以很好地玩大多数商业发行的游戏，但在低阶细节方面并不十分准确。"
 
-msgctxt "#30000"
-msgid "Settings"
-msgstr "设置"
-
 msgctxt "#30001"
 msgid "Language (*)"
 msgstr "语言 (*)"
+
+#~ msgctxt "#30000"
+#~ msgid "Settings"
+#~ msgstr "设置"
 
 #~ msgctxt "#30002"
 #~ msgid "Sound Output Sample Rate"
