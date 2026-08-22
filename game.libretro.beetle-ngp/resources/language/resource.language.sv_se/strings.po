@@ -29,6 +29,16 @@ msgctxt "#30001"
 msgid "Language (*)"
 msgstr "Språk (*)"
 
+msgctxt "#30002"
+msgid "System"
+msgstr ""
+
+msgctxt "#30003"
+msgid ""
+"Language games should display text in.\n"
+"(*) Core restart required."
+msgstr ""
+
 #~ msgctxt "#30000"
 #~ msgid "Settings"
 #~ msgstr "Inställningar"

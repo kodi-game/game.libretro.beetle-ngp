@@ -28,3 +28,13 @@ msgstr "Tento emulátor založený na NeoPopu dokáže poměrně dobře spustit 
 msgctxt "#30001"
 msgid "Language (*)"
 msgstr "Jazyk (*)"
+
+msgctxt "#30002"
+msgid "System"
+msgstr ""
+
+msgctxt "#30003"
+msgid ""
+"Language games should display text in.\n"
+"(*) Core restart required."
+msgstr ""
