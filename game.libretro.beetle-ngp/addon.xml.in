@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.beetle-ngp"
 		name="SNK - Neo Geo Pocket / Color (Beetle NeoPop)"
-		version="1.29.0.46"
+		version="1.29.0.47"
 		provider-name="neopop_uk, Mednafen Team">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
@@ -9,12 +9,12 @@
 	</requires>
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
-		<platforms>NGP</platforms>
+		<platforms>SNK - Neo Geo Pocket / Color</platforms>
 		<extensions>ngp|ngc|ngpc|npc</extensions>
 		<supports_vfs>false</supports_vfs>
 		<supports_standalone>false</supports_standalone>
 		<supports_disc_control>false</supports_disc_control>
-		<requires_opengl>false</requires_opengl>
+		<libretro_core>mednafen_ngp_libretro</libretro_core>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<license>GPLv2</license>
